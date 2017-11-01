@@ -34,7 +34,7 @@
    <h1>Inserisci il testo da tradurre</h1> 
     <form>
     <input type="text">
-    <button type="button" class="bottone">Traduci</button>
+    <button type="button" class="bottone">AAAAAAAAA</button>
     </form>
    </div>    
 </section>    
