@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Morse code translator online">
+<meta name="keywords" content="morse, morse code, online, translator">
+<meta name="author" content="Mr Obinu">
+    
+    <title>Morse Code Translator | Home</title>
+    <link rel="stylesheet" href="CSS/MORSE_style">
+<body>
+    
+<header>
+    <div class="contenitore">
+      <div class="marchio">
+      <h1><span class="evidenziato">Traduttore</span> Morse Online</h1>  
+      </div>
+      
+      <nav>
+        <ul>
+         <li class="corrente"><a href="MORSE_index">Morse</a></li>
+         <li><a href="MORSE_storia">Storia</a></li>
+         <li><a href="MORSE_download">Dowload</a></li>
+        </ul>
+      </nav>    
+        
+    </div>
+</header>
+
+<section id="traduttore">
+   <div class="contenitore">
+   <h1>Inserisci il testo da tradurre</h1> 
+    <form>
+    <input type="text">
+    <button type="button" class="bottone">Traduci</button>
+    </form>
+   </div>    
+</section>    
+    
+<footer>
+   <p>Traduttore Morse Online, Copyright &copy; Mr Obinu 2017</p>    
+    
+</footer> 
+    
+</body>
+</head>
+</html>

@@ -1,0 +1,141 @@
+body{
+    font-family: serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+/* Globale */
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+  ul{
+    padding: 0;
+    margin: 0;
+}
+
+.bottone{
+    height: 37px;
+    background: #ff8c00;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+/* Header */
+
+header{
+    background: #008000;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 60px;
+    border-bottom: #ffd700 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 10px 10px;
+}
+
+header #marchio{
+    float: left;
+}
+
+header #marchio h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: -49px;
+}
+
+header .evidenziato, .corrente a{
+    color: #ffd700;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ffa500;
+    font-weight: bold;
+}
+
+/* Traduttore */
+
+#traduttore{
+    padding: 15px;
+    color: #000000;
+    background: #f0f8ff;
+}
+
+#traduttore h1{
+    float: left;
+}
+
+#traduttore form{
+    float: right;
+    margin-top: 25px;
+}
+
+#traduttore input[type="text"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Footer */
+
+footer{
+    padding: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    height: 5%;
+    width: 100%;
+    background-color: #008000;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+/* Mobile */
+
+@media(max-width: 768px){
+    header #marchio,
+    header nav,
+    header nav li,
+    #traduttore h1,
+    #traduttore form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 15px;
+    }
+    
+    #traduttore button{
+        display: block;
+        width: 100%;
+    }
+    
+    #traduttore form input[type="text"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
